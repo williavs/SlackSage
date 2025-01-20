@@ -232,6 +232,8 @@ def show_welcome():
     For enterprise solutions and custom implementations, check out our services in the sidebar.
     """)
 
+    st.image("assets/logo.png", use_container_width=True)
+
 def show_footer():
     """Display the footer with links."""
     st.divider()
