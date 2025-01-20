@@ -36,8 +36,9 @@ ENV/
 .DS_Store
 
 # Streamlit
-.streamlit/secrets.toml
-
+**/.streamlit/secrets.toml
+# Keep the template
+!**/.streamlit/secrets.template.toml
 
 # Project specific
 data/
