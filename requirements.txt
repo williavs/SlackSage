@@ -1,16 +1,24 @@
+# Core dependencies
 streamlit
 langchain
 langchain-openai
 langchain-community
-langchain-core
-langgraph
 openai
 slack-bolt
 faiss-cpu
+
+# Document processing
+PyMuPDF  # for PDF processing
+python-magic
+PyPDF2
+
+# API integrations
 google-api-python-client
 python-dotenv
-pypdf
-python-magic
+
+# Text processing
 tiktoken
 
-PyMuPDF
+# Development
+ruff  # for linting
+black  # for formatting
